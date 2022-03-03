@@ -5,4 +5,6 @@
     <description>object42/phpcs</description>
 
     <rule ref="PSR12"/>
+
+    <rule ref="Generic.Arrays.ArrayIndent"/>
 </ruleset>
