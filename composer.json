@@ -1,0 +1,19 @@
+{
+    "name": "object42/phpcs",
+    "type": "phpcodesniffer-standard",
+    "description": "object42/phpcs",
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+           "object42\\phpcs\\": "src"
+        }
+    },
+    "require": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+        "slevomat/coding-standard": "^7.0",
+        "squizlabs/php_codesniffer": "^3.6.0"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
