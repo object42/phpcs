@@ -32,3 +32,7 @@ composer require object42/phpcs --dev
 
 - add `phpcs.xml` to the `.gitignore` in the root of the project (to allow local override)
 - add folders to exclude
+
+## usage
+
+`php vendor/bin/phpcs` 
